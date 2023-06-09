@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter Intent URL Replacer",
+    "version": "1.0",
+    "description": "Replace twitter.com/intent/tweet URL with a custom URL",
+    "permissions": ["tabs"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "options_page": "options.html",
+    "icons": {
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    }
+  }
+  
